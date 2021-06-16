@@ -47,7 +47,7 @@ function App() {
                             </Switch> :
                             <Switch>
                                 <Route exact path="/auth">
-                                    <Auth/>
+                                    <Dashboard/>
                                 </Route>
                                 <Redirect to="/auth"/>
                             </Switch>

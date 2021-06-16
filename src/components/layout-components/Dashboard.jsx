@@ -9,7 +9,6 @@ import {Select} from 'antd';
 import {data1} from "../../data/data1";
 import {data2} from "../../data/data2";
 import {data3} from "../../data/data3";
-import { Bar } from 'react-chartjs-2';
 
 
 const {Column, ColumnGroup} = Table;
