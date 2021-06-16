@@ -1,0 +1,24 @@
+.header-btn-container {
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.firstTable, .secondTable {
+    display: flex;
+    padding-right: 20px;
+}
+
+.tablesContainer {
+
+    display: flex;
+}
+
+tr {
+    background: white!important;
+}

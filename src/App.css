@@ -1,0 +1,13 @@
+body {
+    background-color: #FAFAFA!important;
+}
+.app-container {
+    margin: 0 auto;
+    padding: 3em 5em;
+}
+.ant-page-header {
+    padding: 16px 0!important;
+}
+a {
+    color: black;
+}
