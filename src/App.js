@@ -11,6 +11,7 @@ import {FirebaseAuthProvider} from "@react-firebase/auth";
 import {useDispatch, useSelector} from 'react-redux';
 import './auth/FirebaseAuth'
 import {authenticated} from "./redux/actions/Auth";
+import Auth from "./pages/Auth";
 
 function App() {
     const [, setIsAuthenticated] = useState(false);
@@ -47,7 +48,7 @@ function App() {
                             </Switch> :
                             <Switch>
                                 <Route exact path="/auth">
-                                    <Dashboard/>
+                                    <Auth/>
                                 </Route>
                                 <Redirect to="/auth"/>
                             </Switch>

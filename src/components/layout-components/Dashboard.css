@@ -15,10 +15,21 @@
 }
 
 .tablesContainer {
-
+    padding-top: 87px;
     display: flex;
 }
 
+.img img {
+    max-width: 800px;
+    padding-left: 20px;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 300px;
+}
 tr {
     background: white!important;
 }
